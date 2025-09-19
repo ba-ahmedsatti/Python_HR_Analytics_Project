@@ -1,48 +1,3 @@
-# 📊 HR Analytics for MMZY Company
-
-**Author:** Ahmed Satti  
-**Tools Used:** Python, Excel (Power Query), Plotly, Pandas  
-**Dataset:** [HRDataset_v14_cleaned_Full.csv](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set)
-
----
-
-## 🧭 Introduction
-
-This capstone project analyzes HR data to uncover insights into employee turnover, recruitment efficiency, absence trends, and leadership impact. The goal is to empower MMZY Company with data-driven strategies to improve retention, hiring, and performance management.
-
----
-
-## 🎯 Mission Statement
-
-Leverage HR analytics to identify key workforce trends and provide actionable recommendations that reduce costs and enhance operational efficiency.
-
----
-
-## 👥 Stakeholders
-
-- **HR Department:** Improve hiring and retention strategies  
-- **Department Managers:** Understand team performance and leadership impact  
-- **Employees:** Benefit from better management and increased satisfaction
-
----
-
-## 🗂️ Dataset Overview
-
-- **Source:** Kaggle  
-- **Rows:** 311 (excluding header)  
-- **Columns:** 36  
-- **ETL Tool:** Power Query (Excel)
-
-### 🔧 Data Preparation
-
-- Removed duplicates across all columns  
-- Converted `Zip` column to text  
-- Fixed `DOB` column formatting and created a new date-based `Age` column  
-- Age formula:  
-  ```excel
-  Age = Duration.Days(Date.From(DateTime.LocalNow()) - Date.From([DOB])) / 365
-
-You got it, Ahmed! Here's your final version of the README.md in full GitHub-flavored Markdown—with the license section removed and everything else polished and ready to go:
 # 📊 HR Analysis Project – MMZY Company
 
 **Author:** Ahmed Satti  
@@ -87,7 +42,7 @@ Leverage HR analytics to identify key workforce trends and provide actionable re
   ```excel
   Age = Duration.Days(Date.From(DateTime.LocalNow()) - Date.From([DOB])) / 365
 
-
+
 
 💡 Value Proposition
 - Cost Reduction: Lower turnover saves millions annually
@@ -151,16 +106,21 @@ Recommendations:
 - Share best practices from top managers
 - Implement 360-degree feedback
 
+
+📦 Deliverables
+- AhmedSatti_HR_Final.pbix – Interactive Power BI dashboard
+- AhmedSatti_HRDataset_v14_cleaned.xlsx – Cleaned dataset
+- AhmedSatti_HR_FinalDoc.docx – Documentation outlining business logic and steps
+
 ✅ Conclusion
 - Turnover linked to department, satisfaction, and role
 - Website and referrals are top hiring sources
 - Absence tied to satisfaction and performance
 - Manager quality drives team success and retention
 
-About the Author
-- Ahmed Satti
-- Business & Data Analyst
-- Calgary, Alberta
-- Email: aihsatti@gmail.com
-- LinkedIn: linkedin.com/in/ahmed-satti-53063470
-
+## About the Author  
+Ahmed Satti  
+Business & Data Analyst  
+Calgary, Alberta  
+Email: aihsatti@gmail.com  
+LinkedIn: https://www.linkedin.com/in/ahmed-satti-53063470/
