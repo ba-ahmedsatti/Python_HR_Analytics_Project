@@ -1,7 +1,7 @@
 # 📊 HR Analysis Project – MMZY Company
 
 **Author:** Ahmed Satti  
-**Tools Used:** Python, Excel (Power Query), Plotly, Pandas  
+**Tools Used:** Python, Excel (Power Query), Plotly, Pandas 
 **Dataset:** [HRDataset_v14_cleaned_Full.csv](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set)
 
 ---
